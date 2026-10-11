@@ -23,13 +23,13 @@ public class SimpleDispatcher {
 
         // 3. Dispatch Decision Logic (If-Else Rules)
         if (windSpeed > 25) {
-            System.out.println("🚨 STATUS: DISPATCH DENIED!");
+            System.out.println("STATUS: DISPATCH DENIED!");
             System.out.println("Reason: Stormy conditions. Wind speed exceeds safe landing limits.");
         } else if (windSpeed >= 15 && windSpeed <= 25) {
-            System.out.println("⚠️ STATUS: DISPATCH APPROVED WITH CAUTION");
+            System.out.println(" STATUS: DISPATCH APPROVED WITH CAUTION");
             System.out.println("Reason: Strong winds. Add extra contingency fuel for the flight.");
         } else {
-            System.out.println("✅ STATUS: DISPATCH APPROVED");
+            System.out.println(" STATUS: DISPATCH APPROVED");
             System.out.println("Reason: Weather is clear and stable for departure.");
         }
         System.out.println("---------------------------------");
